@@ -27,7 +27,7 @@ Sudamérica es una de las regiones sísmicamente más activas del planeta. La co
 
 ![Mapa interactivo Folium](assets/map.png)
 
-> Cada punto en el mapa representa un evento sísmico. El color indica su nivel de riesgo: 🟡 Low · 🟢 Medium · 🔴 High · 🔵 Very High
+> Cada punto en el mapa representa un evento sísmico. El color indica su nivel de riesgo: 🟡 Low · 🟢 Medium · 🔵 High · 🔴 Very High
 
 ---
 
@@ -63,8 +63,8 @@ KMeans(
 | Cluster | Nivel de riesgo   | Mag. promedio | Profundidad (km) | nst promedio |
 | :-----: | ----------------- | :-----------: | :--------------: | :----------: |
 |    0    | 🟡 Medium Risk    |     4.27      |      93.42       |    31.15     |
-|    1    | 🔵 Very High Risk |     5.04      |      75.13       |    109.34    |
-|    2    | 🔴 High Risk      |     4.78      |      99.98       |    95.10     |
+|    1    | 🔴 Very High Risk |     5.04      |      75.13       |    109.34    |
+|    2    | 🔵 High Risk      |     4.78      |      99.98       |    95.10     |
 |    3    | 🟢 Low Risk       |     4.71      |      11.20       |    40.14     |
 
 ### Métricas de evaluación
@@ -75,10 +75,9 @@ KMeans(
 | Número de clusters (k) | **4**       |
 | Eventos analizados     | **52.155+** |
 
-|       Método del codo        |           Silhouette Plot            |          Scatter 3D          |
-| :--------------------------: | :----------------------------------: | :--------------------------: |
-|  ![Elbow](assets/elbow.png)  | ![Silhouette](assets/silhouette.png) | ![3D](assets/scatter-3d.png) |
-| ![3D](assets/scatter-3d.png) |
+|      Método del codo       |           Silhouette Plot            |          Scatter 3D          |
+| :------------------------: | :----------------------------------: | :--------------------------: |
+| ![Elbow](assets/elbow.png) | ![Silhouette](assets/silhouette.png) | ![3D](assets/scatter-3d.png) |
 
 ---
 
